@@ -1,0 +1,192 @@
+```css
+/* ==========================
+   WEBSITE PRICING SECTION
+========================== */
+
+.pricing-section{
+    padding:100px 0;
+    background:#f8faff;
+}
+
+.pricing-heading{
+    max-width:700px;
+    margin:0 auto 60px;
+}
+
+.pricing-badge{
+    display:inline-block;
+    padding:8px 18px;
+    border-radius:50px;
+    background:rgba(63,80,172,.08);
+    color:var(--main-Cerulean-Blue);
+    font-size:13px;
+    font-weight:600;
+}
+
+.pricing-heading h2{
+    font-size:3rem;
+    font-weight:700;
+    color:var(--main-Deep-Cove);
+    margin:20px 0;
+}
+
+.pricing-heading p{
+    color:black;
+}
+
+/* Trust Bar */
+
+.pricing-trust-bar{
+    background:#fff;
+    padding:30px;
+    border-radius:24px;
+    box-shadow:0 10px 35px rgba(0,0,0,.05);
+}
+
+.trust-item{
+    text-align:center;
+}
+
+.trust-item i{
+    display:block;
+    font-size:2rem;
+    color:var(--main-Cerulean-Blue);
+    margin-bottom:10px;
+}
+
+/* Cards */
+
+.pricing-card{
+    background:#fff;
+    border-radius:24px;
+    padding:35px;
+    height:100%;
+    border:1px solid rgba(0,0,0,.05);
+    box-shadow:0 12px 35px rgba(0,0,0,.06);
+    transition:.4s;
+    position:relative;
+}
+
+.pricing-card:hover{
+    transform:translateY(-10px);
+}
+
+.pricing-card h3{
+    font-size:1.5rem;
+    font-weight:700;
+    color:var(--main-Deep-Cove);
+}
+
+.price{
+    font-size:3rem;
+    font-weight:800;
+    color:var(--main-Cerulean-Blue);
+    margin:20px 0;
+}
+
+.pricing-features{
+    list-style:none;
+    padding:0;
+    margin:0 0 25px;
+}
+
+.pricing-features li{
+    padding:12px 0;
+    border-bottom:1px solid #f1f1f1;
+    color:#000;
+}
+
+.pricing-btn{
+    display:block;
+    text-align:center;
+    padding:14px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:600;
+    color:#fff;
+    background:linear-gradient(
+      135deg,
+      var(--main-Cerulean-Blue),
+      var(--main-Purple-Heart)
+    );
+}
+
+.featured{
+    border:2px solid var(--main-Purple-Heart);
+    transform:scale(1.04);
+}
+
+.popular-tag{
+    position:absolute;
+    top:20px;
+    right:20px;
+    background:linear-gradient(
+      135deg,
+      var(--main-Cerulean-Blue),
+      var(--main-Purple-Heart)
+    );
+    color:#fff;
+    padding:6px 12px;
+    border-radius:30px;
+    font-size:11px;
+    font-weight:700;
+}
+
+/* Custom Card */
+
+.custom-card{
+    background:linear-gradient(
+      135deg,
+      #111827,
+      #1e293b
+    );
+}
+
+.custom-card h3,
+.custom-card li,
+.custom-price{
+    color:#fff;
+}
+
+.custom-card .pricing-features li{
+    border-color:rgba(255,255,255,.1);
+}
+
+.custom-price{
+    font-size:2.8rem;
+    font-weight:700;
+    margin:20px 0;
+}
+
+.custom-btn{
+    background:#fff;
+    color:#111827 !important;
+}
+
+.pricing-note{
+    color:#6b7280;
+}
+
+@media(max-width:991px){
+
+    .featured{
+        transform:none;
+    }
+
+    .pricing-heading h2{
+        font-size:2.2rem;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .pricing-section{
+        padding:70px 0;
+    }
+
+    .pricing-heading h2{
+        font-size:2rem;
+    }
+
+}

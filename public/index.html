@@ -1,14 +1,127 @@
-{{ define "main" }}
+<!DOCTYPE html>
+<html lang="en">
 
-  <!-- hero section -->
+<head>
+	<meta name="generator" content="Hugo 0.154.3"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>My New Hugo Site | My New Hugo Site</title>
+
+    <meta name="description" content="">
+
+    
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    
+    
+
+    <link rel="stylesheet" href="/css/xnetch.min.f436a0537c5acb093eadef0218815c27ffc734edd8f753ca6288d41930561222.css">
+</head>
+</head>
+
+<body>
+
+    
+    <style>
+   
+
+#mainNavbar {
+  transition: top 0.6s ease;
+}
+
+ 
+.sticky-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;  
+  z-index: 1000;      
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+  height: 50px;  
+}
+
+
+.social-icons a {
+  color: black;
+  margin-right: 10px;
+  font-size: 18px;
+  text-decoration: none;
+}
+.nav-link {
+  color: var(--main-Deep-Cove) !important;
+  font-weight: 500;
+  font-size: 0.8888rem;
+}
+.nav-link:hover {
+  color: var(--main-Cerulean-Blue) !important;  
+}
+.dropdown-menu {
+  border: none;
+}
+</style>
+<nav id="mainNavbar" class="navbar navbar-expand-lg navbar-light" style="z-index: 1000;">
+  <div class="container">
+    <a class="navbar-brand" href="/index.html">
+      <img
+        src="/images/logo/xnetch-logo-main.png"
+        alt="Company Logo" />
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="/index.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/pages/contact-us.html">Contact Us</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/pages/about-us.html">About Us</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    
+    <main>
+        
+
+  
   <section class="hero-section">
     <div class="video-overlay"></div>
-    <!-- Video Background -->
+    
     <div class="video-background">
       <video autoplay muted loop playsinline>
         <source src="https://videos.pexels.com/video-files/5076634/5076634-uhd_2732_1440_25fps.mp4" type="video/mp4">
         <source src="your-video.webm" type="video/webm">
-        <!-- Fallback image if video fails to load -->
+        
         <img
           src="images/logo/xnetch-logo-main.png"
           alt="Background Fallback">
@@ -16,23 +129,23 @@
 
     </div>
 
-    <!-- text content -->
+    
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-10 col-md-12 text-center">
 
-          <!-- Animated Headline with Backspace Effect -->
+          
           <h1 class="hero-headline">
             <span id="typewriter"></span>
             <span class="typed-cursor">|</span>
           </h1>
 
-          <!-- Subheadline -->
+          
           <p class="hero-subheadline">
             We create <span class="highlight">digital experiences</span> that drive results
           </p>
 
-          <!-- CTA Buttons -->
+          
           <div class="hero-cta-group d-flex flex-wrap justify-content-center gap-3 mt-4">
             <a href="#product-gallery" class="btn gradient-btn">
               View Our Work
@@ -47,7 +160,7 @@
 
 
 
-          <!-- Trust Badges -->
+          
           <div class="trust-badges d-flex justify-content-center flex-wrap text-center">
             <div class="badge-item">
               <span>500+</span>
@@ -62,7 +175,7 @@
       </div>
 
   </section>
-  <!-- Services Section -->
+  
 <section id="service-section" class="services-section">
 
   <div class="service-deco service-deco-1"></div>
@@ -81,7 +194,7 @@
 
     <div class="services-grid">
 
-      <!-- Website Design -->
+      
       <div class="service-card featured-card">
 
         <span class="service-badge">Most Popular</span>
@@ -120,7 +233,7 @@
 
       </div>
 
-      <!-- Graphic Design -->
+      
       <div class="service-card">
 
         <div class="service-icon graphic-icon">
@@ -161,12 +274,12 @@
 
 </section>
 
-<!-- OUR WORK SECTION -->
+
 <section class="our-work py-5">
 
     <div class="container">
 
-        <!-- Heading -->
+        
         <div class="section-heading text-center">
 
             <span class="portfolio-badge">
@@ -184,7 +297,7 @@
 
         </div>
 
-        <!-- Filter Buttons -->
+        
 
         <div class="portfolio-filters">
 
@@ -215,11 +328,11 @@
 
         </div>
 
-        <!-- Projects -->
+        
 
         <div class="row g-4 portfolio-grid">
 
-            <!-- Card 1 -->
+            
 
             <div class="col-lg-4 col-md-6 portfolio-item web">
 
@@ -262,7 +375,7 @@
 
             </div>
 
-            <!-- Card 2 -->
+            
 
             <div class="col-lg-4 col-md-6 portfolio-item ecommerce">
 
@@ -305,7 +418,7 @@
 
             </div>
 
-            <!-- Card 3 -->
+            
 
             <div class="col-lg-4 col-md-6 portfolio-item branding">
 
@@ -348,7 +461,7 @@
 
             </div>
 
-            <!-- Card 4 -->
+            
 
             <div class="col-lg-4 col-md-6 portfolio-item graphic">
 
@@ -391,7 +504,7 @@
 
             </div>
 
-            <!-- Card 5 -->
+            
 
             <div class="col-lg-4 col-md-6 portfolio-item web">
 
@@ -434,7 +547,7 @@
 
             </div>
 
-            <!-- Card 6 -->
+            
 
             <div class="col-lg-4 col-md-6 portfolio-item ecommerce">
 
@@ -483,12 +596,12 @@
 
 </section>
 
-<!-- pricing section -->
+
 <section class="pricing-section" id="pricing">
 
     <div class="container">
 
-        <!-- Heading -->
+        
         <div class="pricing-heading text-center">
 
             <span class="pricing-badge">
@@ -505,7 +618,7 @@
 
         </div>
 
-        <!-- Trust Bar -->
+        
         <div class="pricing-trust-bar">
 
             <div class="row g-4">
@@ -542,10 +655,10 @@
 
         </div>
 
-        <!-- Pricing Cards -->
+        
         <div class="row g-4 mt-4 justify-content-center">
 
-            <!-- Starter -->
+            
             <div class="col-lg-4 col-md-6">
                 <div class="pricing-card">
 
@@ -573,7 +686,7 @@
                 </div>
             </div>
 
-            <!-- Business -->
+            
             <div class="col-lg-4 col-md-6">
                 <div class="pricing-card">
 
@@ -601,7 +714,7 @@
                 </div>
             </div>
 
-            <!-- Professional -->
+            
             <div class="col-lg-4 col-md-6">
                 <div class="pricing-card featured">
 
@@ -633,7 +746,7 @@
                 </div>
             </div>
 
-            <!-- Premium -->
+            
             <div class="col-lg-4 col-md-6">
                 <div class="pricing-card">
 
@@ -661,7 +774,7 @@
                 </div>
             </div>
 
-            <!-- Custom -->
+            
             <div class="col-lg-4 col-md-6">
                 <div class="pricing-card custom-card">
 
@@ -703,12 +816,12 @@
 ```
 
 
-<!-- ecomerce solution section -->
+
 <section class="ecommerce-section" id="ecommerce">
 
   <div class="container">
 
-    <!-- Section Heading -->
+    
     <div class="ecommerce-heading text-center">
 
       <span class="ecommerce-badge">
@@ -725,7 +838,7 @@
 
     </div>
 
-    <!-- Features Row -->
+    
 
     <div class="row g-4 mb-5">
 
@@ -759,11 +872,11 @@
 
     </div>
 
-    <!-- Pricing Cards -->
+    
 
     <div class="row g-4">
 
-      <!-- DIY Setup -->
+      
 
       <div class="col-lg-4 col-md-6">
 
@@ -808,7 +921,7 @@
 
       </div>
 
-      <!-- Starter Store -->
+      
 
       <div class="col-lg-4 col-md-6">
 
@@ -857,7 +970,7 @@
 
       </div>
 
-      <!-- Business Store -->
+      
 
       <div class="col-lg-4 col-md-6">
 
@@ -904,7 +1017,7 @@
 
     </div>
 
-    <!-- Custom Ecommerce -->
+    
 
     <div class="custom-store-card mt-5">
 
@@ -989,7 +1102,7 @@
 </section>
 
 
-  <!-- Creative Testimonial Flow Section -->
+  
   <section class="testimonial-flow-section">
     <div class="container testimonial-flow-container">
       <div class="testimonial-flow-title">
@@ -998,7 +1111,7 @@
 
       <div class="testimonial-flow-wrapper">
         <div class="testimonial-flow">
-          <!-- Testimonial 1 -->
+          
           <div class="testimonial-card-flow">
             <div class="testimonial-content">
               "Xnetch designed a resume that helped me land interviews at top companies within weeks of using it. The
@@ -1022,7 +1135,7 @@
             </div>
           </div>
 
-          <!-- Testimonial 2 -->
+          
           <div class="testimonial-card-flow">
             <div class="testimonial-content">
               "Our business website looks incredible and performs flawlessly thanks to Xnetch! Their attention to detail
@@ -1046,7 +1159,7 @@
             </div>
           </div>
 
-          <!-- Testimonial 3 -->
+          
           <div class="testimonial-card-flow">
             <div class="testimonial-content">
               "The graphics and social media templates we received boosted our brand presence massively. Highly
@@ -1070,7 +1183,7 @@
             </div>
           </div>
 
-          <!-- Testimonial 4 -->
+          
           <div class="testimonial-card-flow">
             <div class="testimonial-content">
               "The e-commerce website Xnetch built for us increased our sales by 200% in the first month. Their designs
@@ -1094,7 +1207,7 @@
             </div>
           </div>
 
-          <!-- Testimonial 5 -->
+          
           <div class="testimonial-card-flow">
             <div class="testimonial-content">
               "I've used many design services before, but Xnetch stands out for their creativity and customer support."
@@ -1122,7 +1235,7 @@
   </section>
 
 
-  <!-- Custom design form -->
+  
   <section id="custom-design" class="custom-design py-5 mt-5">
     <div class="container">/
 
@@ -1137,10 +1250,10 @@
       </div>
 
       <div class="row g-4 align-items-center">
-        <!-- Left Column - Benefits -->
+        
         <div class="col-lg-6">
           <div class="benefits-grid">
-            <!-- Benefit 1 -->
+            
             <div class="benefit-card p-4 rounded-3 mb-3">
               <div class="d-flex">
                 <div class="icon-box bg-primary-soft text-primary rounded-circle me-3 flex-shrink-0">
@@ -1153,7 +1266,7 @@
               </div>
             </div>
 
-            <!-- Benefit 2 -->
+            
             <div class="benefit-card p-4 rounded-3 mb-3">
               <div class="d-flex">
                 <div class="icon-box bg-success-soft text-success rounded-circle me-3 flex-shrink-0">
@@ -1166,7 +1279,7 @@
               </div>
             </div>
 
-            <!-- Benefit 3 -->
+            
             <div class="benefit-card p-4 rounded-3 mb-3">
               <div class="d-flex">
                 <div class="icon-box bg-warning-soft text-warning rounded-circle me-3 flex-shrink-0">
@@ -1179,7 +1292,7 @@
               </div>
             </div>
 
-            <!-- Benefit 4 -->
+            
             <div class="benefit-card p-4 rounded-3 mb-3">
               <div class="d-flex">
                 <div class="icon-box bg-info-soft text-info rounded-circle me-3 flex-shrink-0">
@@ -1192,7 +1305,7 @@
               </div>
             </div>
 
-            <!-- Benefit 5 -->
+            
             <div class="benefit-card p-4 rounded-3 mb-3">
               <div class="d-flex">
                 <div class="icon-box bg-danger-soft text-danger rounded-circle me-3 flex-shrink-0">
@@ -1205,7 +1318,7 @@
               </div>
             </div>
 
-            <!-- Benefit 6 -->
+            
             <div class="benefit-card p-4 rounded-3">
               <div class="d-flex">
                 <div class="icon-box bg-purple-soft text-purple rounded-circle me-3 flex-shrink-0">
@@ -1220,7 +1333,7 @@
           </div>
         </div>
 
-        <!-- Right Column - Contact Form -->
+        
 
         <div class="col-lg-6">
           <a href="https://wa.me/919903903666" target="_blank" style="
@@ -1281,7 +1394,7 @@
 
   
 
-  <!-- cookies bannerr -->
+  
   <div id="cookieBanner" style="position: fixed; bottom: 0; width: 100%; background: #222; color: white; padding: 1rem; text-align: center; z-index: 1000;">
   We use cookies to improve your experience. By using our site, you agree to our cookie policy.
   <button onclick="acceptCookies()" style="margin-left: 1rem; padding: 0.5rem 1rem;">Accept</button>
@@ -1289,5 +1402,125 @@
 
 
 
-{{ end }}
 
+    </main>
+
+    
+     
+  <footer class="footer-section py-5" style="background-color: black; color: white;">
+    <div class="container">
+      <div class="row g-4">
+        
+        <div class="col-lg-3 col-md-6">
+          <h3 class="h5 text-white mb-4">Quick Links</h3>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="text-white-50 hover-white text-decoration-none">Home</a></li>
+            <li class="mb-2"><a href="/shop/index.html" class="text-white-50 hover-white text-decoration-none">Design Templates</a></li>
+            <li class="mb-2"><a href="#custom-design" class="text-white-50 hover-white text-decoration-none">Custom Designs</a></li>
+            <li class="mb-2"><a href="#creative-pricing" class="text-white-50 hover-white text-decoration-none">Pricing</a></li>
+            <li class="mb-2"><a href="/pages/about-us.html" class="text-white-50 hover-white text-decoration-none">About Us</a></li>
+            <li class="mb-2"><a href="/pages/contact-us.html" class="text-white-50 hover-white text-decoration-none">Contact Us</a></li>
+           
+            
+          </ul>
+          
+          <h3 class="h5 text-white ">Legal</h3>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="/pages/terms-conditions.html" class="text-white-50 hover-white text-decoration-none">Terms & Conditions</a>
+            </li>
+            <li class="mb-2"><a href="/pages/privacy-policy.html" class="text-white-50 hover-white text-decoration-none">Privacy Policy</a></li>
+            <li class="mb-2"><a href="/pages/licensing.html" class="text-white-50 hover-white text-decoration-none">Licensing</a></li>
+            <li class="mb-2"><a href="/pages/cookie-policy.html" class="text-white-50 hover-white text-decoration-none">Cookie Policy</a></li>
+            <li class="mb-2"><a href="/pages/refundpolicy.html" class="text-white-50 hover-white text-decoration-none">Refund Policy</a></li>
+          </ul>
+        </div>
+
+
+
+        
+        <div class="col-lg-5 col-md-6">
+          <h3 class="h5 text-white mb-4">Contact Info</h3>
+          <ul class="list-unstyled text-white-50">
+
+            <li class="mb-3 d-flex">
+              <i class="bi bi-geo-alt-fill text-white me-3"></i>
+              <span class="text-white-50">
+                Corporate Office:<br />
+                Reshmi Building, Saltlake City, Sector-V, Kolkata, 700091, India
+              </span>
+            </li>
+            <li class="mb-3 d-flex">
+              <i class="bi bi-geo-alt-fill text-white me-3"></i>
+              <span class="text-white-50">
+                Register Office:<br />
+                VPO- Pursurah, Dist- Hooghly, West Bengal, 712401, India
+              </span>
+            </li>
+            <li class="mb-3 d-flex">
+              <i class="bi bi-envelope-fill text-white me-3"></i>
+              <a href="mailto:contact@xnetch.com"
+                class="text-white-50 hover-white text-decoration-none">contact@xnetch.com</a>
+            </li>
+            <li class="mb-3 d-flex">
+              <i class="bi bi-telephone-fill text-white me-3"></i>
+              <a href="tel:+919903903666" class="text-white-50 hover-white text-decoration-none">+91 990 390 3666</a>
+            </li>
+            <li class="mb-3 d-flex">
+              <i class="bi bi-clock-fill text-white me-3"></i>
+              <span class="text-white-50">Mon-Fri: 9AM - 6PM</span>
+            </li>
+          </ul>
+
+          
+          <div class="mt-3 rounded overflow-hidden">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.152672425357!2d88.43102407506273!3d22.61010353287973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027624b180a1e7%3A0xc93e4e230c1c4a8e!2sSector%20V%2C%20Salt%20Lake%20City%2C%20Kolkata%2C%20West%20Bengal%20700091!5e0!3m2!1sen!2sin!4v1717159548143!5m2!1sen!2sin"
+              width="100%" height="180" style="border:0; filter: grayscale(100%) invert(90%) contrast(85%);"
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+
+
+        
+        <div class="col-lg-3 col-md-6">
+          <h3 class="h5 text-white mb-4">Follow Us</h3>
+          <div class="social-media mb-4">
+            <a href="https://www.facebook.com/webXnetch" target="_blank" class="text-white me-3 fs-5"><i class="text-white-50 bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/xnetch/" target="_blank" class="text-white me-3 fs-5"><i class="text-white-50 bi bi-instagram"></i></a>
+            <a href="https://x.com/XnetchX" target="_blank" class="text-white me-3 fs-5"><i class="text-white-50 bi bi-twitter-x"></i></a>
+            <a href="https://www.linkedin.com/company/xnetch" target="_blank" class="text-white me-3 fs-5"><i class="text-white-50 bi bi-linkedin"></i></a>
+            <a href="https://in.pinterest.com/xnetch/" target="_blank" class="text-white me-3 fs-5"><i class="bi bi-pinterest"></i></a>
+          </div>
+          
+          
+        </div>
+      </div>
+
+      
+      <div class="row mt-5 pt-3 border-top border-secondary">
+        <div class="col-md-6 text-center text-md-start">
+          <p class="small text-white-50 mb-3 mb-md-0">
+            © 2023 Xnetch. All rights reserved.
+          </p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <p class="small text-white-50">
+            Xnetch | Design. Develop. Deliver.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    
+    
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+<script defer src="/js/xnetch.min.bda118e92456ea0d0a2041d55a63fa61d1b081cef8eace2497643b9f23107364.js"></script>
+
+</body>
+
+</html>

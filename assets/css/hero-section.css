@@ -1,0 +1,198 @@
+/* Universal styles */
+* {
+  /* color: white; */
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+}
+
+/* Paragraphs */
+
+/* Hero section with video background */
+.hero-section {
+  position: relative;
+  padding: 180px 0 220px;
+  color: white;
+  overflow: hidden;
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+
+.video-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(17, 117, 175, 0.77); /* #1175afc5 */
+  z-index: -1;
+}
+
+/* Headline */
+.hero-headline {
+  font-size: 3.8rem;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  color: white;
+}
+
+/* Highlighted text */
+.highlight {
+    font-size: 2rem;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 0 8px;
+  border-radius: 4px;
+}
+
+/* Typewriter Cursor */
+.typed-cursor {
+  color: white;
+  font-weight: 600;
+  animation: blink 0.7s infinite;
+  left: -10px;
+  top: -10px;
+  position: relative;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+
+/* Buttons */
+.gradient-btn,
+.bordered-btn {
+  font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* Left (gradient) button */
+.gradient-btn {
+  background: linear-gradient(to right, #141446, #3f50ac);
+  color: #fff;
+  border: none;
+}
+
+.gradient-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Right (bordered) button */
+.bordered-btn {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.bordered-btn:hover {
+  background: #ffffff;
+  color: #3f50ac;
+  transform: translateY(-2px);
+}
+
+/* Material Icons */
+.material-icons {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+/* Responsive spacing and stacking */
+.hero-cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 40px;
+}
+
+/* Trust badges (optional section) */
+.trust-badges {
+  margin-top: 50px;
+  gap: 60px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.trust-badges .badge-item span {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+
+/* Trust badge icons */
+.bordered-btn .material-icons {
+  color: #25D366; /* WhatsApp green */
+}
+
+/* Responsive overrides */
+@media (max-width: 992px) {
+  .hero-headline {
+    font-size: 3rem;
+  }
+
+  .hero-mockup {
+    position: static;
+    margin-top: 40px;
+    width: 90%;
+    transform: none;
+  }
+
+  .hero-section {
+    padding: 120px 20px 100px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-headline {
+    font-size: 1.4rem !important;
+  }
+
+  p, .highlight {
+    font-size: 1rem;
+  }
+
+  .typed-cursor {
+    top: 0;
+    left: 0.5px;
+  }
+
+  .gradient-btn,
+  .bordered-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero-cta-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

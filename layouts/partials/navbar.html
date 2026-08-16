@@ -1,0 +1,72 @@
+<style>
+  /* Navbar */
+
+#mainNavbar {
+  transition: top 0.6s ease;
+}
+
+/* When navbar becomes sticky (fixed to top) */
+.sticky-navbar {
+  position: fixed;
+  top: 0;
+  left: 0; /* Align to the left edge */
+  z-index: 1000; /* Ensure it stays above other content */    
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+  height: 50px; /* Adjust logo size */
+}
+
+
+.social-icons a {
+  color: black;
+  margin-right: 10px;
+  font-size: 18px;
+  text-decoration: none;
+}
+.nav-link {
+  color: var(--main-Deep-Cove) !important;
+  font-weight: 500;
+  font-size: 0.8888rem;
+}
+.nav-link:hover {
+  color: var(--main-Cerulean-Blue) !important; /* Bootstrap primary blue */
+}
+.dropdown-menu {
+  border: none;
+}
+</style>
+<nav id="mainNavbar" class="navbar navbar-expand-lg navbar-light" style="z-index: 1000;">
+  <div class="container">
+    <a class="navbar-brand" href="/index.html">
+      <img
+        src="/images/logo/xnetch-logo-main.png"
+        alt="Company Logo" />
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="/index.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/pages/contact-us.html">Contact Us</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/pages/about-us.html">About Us</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
